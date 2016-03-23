@@ -275,6 +275,9 @@
 				width: 100%;
 			}
 
+			.imagetest {
+				background: url("images/globe.jpg");
+			}
 /* Icon */
 
 	.icon {

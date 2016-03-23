@@ -6,10 +6,40 @@ description: > # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 # baseurl: "/nyctomumbai2/" # the subpath of your site, e.g. /blog/
-# url: "http://kgmodi.github.io/nyctomumbai2" # the base hostname & protocol for your site
-url: "http://locahost"
-twitter_username: jekyllrb
-github_username:  jekyll
-port: "4444"
+url: "http://kgmodi.github.io/nyctomumbai2" # the base hostname & protocol for your site
+# url: "http://locahost"
+twitter_username: kgmodi
+github_username:  kgmodi
+# port: "4444"
 # Build settings
 markdown: kramdown
+
+# Team names, titles and social links
+people:
+- name: Kunal Modi
+  pic: 
+  position: 
+  social:
+    - title: facebook
+      url: http://www.facebook.com/kgmodi
+    - title: linkedin
+      url: http://www.linkedin.com/in/kunalmodi
+
+- name: Devanshi Modi
+  pic: 
+  position: 
+  social:
+    - title: facebook
+      url: http://www.facebook.com/devanshi.gandhi.37
+    - title: linkedin
+      url: http://www.linkedin.com/in/devanshi-modi-930bb3b1
+
+- name: Shrida Shah Pradhan 
+  pic: 
+  position: 
+  social:
+      - title: facebook
+        url: http://www.facebook.com/shirishiri.shahpradhan
+      - title: linkedin
+        url: http://www.linkedin.com/in/shrida-shahpradhan-81270811
+
