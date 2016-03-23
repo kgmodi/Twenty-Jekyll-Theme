@@ -165,13 +165,13 @@ layout: landing-page
 				        <ul class="posts">
 				          {% for post in site.posts limit:5%}
 				            <li>
-				              <h3><a href="{{ post.url }}">{{ post.title }} - {{ post.author }} - {{ post.date | date: "%b %-d, %Y"}}</a></h3>
+				              <h3><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }} - {{ post.author }} - {{ post.date | date: "%b %-d, %Y"}}</a></h3>
 				            </li>
 				          {% endfor %}
 				        </ul>
 								<footer>
 									<ul class="buttons">
-										<li><a href="/blog.html" class="button">Read More</a></li>
+										<li><a href="blog.html" class="button">Read More</a></li>
 									</ul>
 								</footer>
 							</div>
