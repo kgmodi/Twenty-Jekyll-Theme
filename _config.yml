@@ -10,7 +10,7 @@ url: "http://kgmodi.github.io" # the base hostname & protocol for your site
 # url: "http://locahost"
 twitter_username: kgmodi
 github_username:  kgmodi
-# port: "4444"
+port: "80"
 # Build settings
 markdown: kramdown
 
