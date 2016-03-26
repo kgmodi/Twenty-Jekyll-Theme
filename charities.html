@@ -1,3 +1,42 @@
 ---
 layout: default
 ---	
+
+					<section class="wrapper style3 container special">
+
+						<header class="major">
+							<h2><strong>Charities We Support</strong></h2>
+						</header>
+						
+						<div class="row">
+							
+              {% for charity in site.charities %}
+							<div class="6u">
+								<section>
+									<a href="{{charity.url}}" class="image featured"><img src="{{charity.logo-url}}" alt="{{charity.name}}"/></a>
+									<header>
+										<h3><strong><a href="{{charity.url}}">{{charity.name}}</a></strong></h3>
+									</header>
+									<h6>	{{charity.location}}</h6>
+									
+									<p>{{charity.description}}</p>
+								</section>
+              </div>
+              {% endfor %}
+            </div>
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							

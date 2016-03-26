@@ -7,7 +7,6 @@ layout: landing-page
 				<header class="special container">
 					<span class="icon fa-bar-chart-o"></span>
 					<h2><strong>17 Countries </strong><br/> 12000+ kms <br/><strong> 3 People </strong><br/> 1 Car </h2>
-					<!-- <h2><strong> Adventure </strong> Exploration  <strong> Charity </strong></h2> -->
 					<p>This August, three people will embark on a journey starting in New York crossing continents and driving thousands of miles from London to Mumbai for charity and adventure.</p>
 				</header>
 				<!-- Two -->
@@ -121,8 +120,8 @@ layout: landing-page
 						<div class="row">
 	                {% for member in site.people %}
 	                <div class="4u">
-	                    <div class="team-member">
-	                        <!-- <img src="img/{{ member.pic }}" class="img-responsive img-circle" alt=""> -->
+										<section>
+	                        <img src="{{ member.pic }}" class="image circle" alt="">
 													<header>
 	                        	<h3>{{ member.name }}</h3>
 													</header>
@@ -135,25 +134,33 @@ layout: landing-page
 	                            </li>
 	                            {% endfor %}
 	                        </ul>
-	                    </div>
+													</section>
+													
 	                </div>
 	                {% endfor %}
 						</div>
 						<h2><strong>Support Team</strong></h2>
-
 						<div class="row">
+              {% for member in site.support-team %}
 							<div class="4u">
 								<section>
+	                <img src="{{ member.pic }}" class="image circle" alt="">
 									<header>
-										<h3>Vrunda Modi</h3>
+										<h3>{{ member.name }}</h3>
 									</header>
-							    <ul class="icons">
-									<li><a href="#" class="icon circle fa-facebook"></a></li>
-        					<li><a href="#" class="icon circle fa-linkedin"></a></li>
-									</ul>
-									<p></p>
+	                <p class="text-muted">{{ member.position }}</p>
+	                        <ul class="icons">
+	                            {% for network in member.social %}
+	                            <li>
+	                                <a href="{{ network.url }}" class="icon circle fa-{{ network.title }}">
+	                                </a>
+	                            </li>
+	                            {% endfor %}
+	                        </ul>
 								</section>
 							</div>
+              {% endfor %}
+							
 						</div>
 					</section>
 					<section class="wrapper style2 container special-alt">

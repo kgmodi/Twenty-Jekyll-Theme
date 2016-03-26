@@ -247,7 +247,6 @@
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -260,7 +259,7 @@
 			display: block;
 		}
 
-			.image.fit img {
+		.image.fit img {
 				display: block;
 				width: 100%;
 			}
@@ -274,10 +273,10 @@
 				display: block;
 				width: 100%;
 			}
-
-			.imagetest {
-				background: url("images/globe.jpg");
+			.image.circle {
+				border-radius: 50%;
 			}
+
 /* Icon */
 
 	.icon {
