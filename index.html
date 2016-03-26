@@ -47,8 +47,54 @@ layout: landing-page
 						</div>
 					</section>
 			</article>				
-  {% include team.html %}
-
+					<section id="team" class="wrapper style3 container special">
+						<h2><strong>Team</strong></h2>
+						<div class="row">
+	                {% for member in site.people %}
+	                <div class="4u">
+										<section>
+	                        <img src="{{ member.pic }}" class="image circle" alt="">
+													<header>
+	                        	<h3>{{ member.name }}</h3>
+													</header>
+	                        <p class="text-muted">{{ member.position }}</p>
+	                        <ul class="icons">
+	                            {% for network in member.social %}
+	                            <li>
+	                                <a href="{{ network.url }}" class="icon circle fa-{{ network.title }}">
+	                                </a>
+	                            </li>
+	                            {% endfor %}
+	                        </ul>
+													</section>
+													
+	                </div>
+	                {% endfor %}
+						</div>
+						<h2><strong>Support Team</strong></h2>
+						<div class="row">
+              {% for member in site.support-team %}
+							<div class="4u">
+								<section>
+	                <img src="{{ member.pic }}" class="image circle" alt="">
+									<header>
+										<h3>{{ member.name }}</h3>
+									</header>
+	                <p class="text-muted">{{ member.position }}</p>
+	                        <ul class="icons">
+	                            {% for network in member.social %}
+	                            <li>
+	                                <a href="{{ network.url }}" class="icon circle fa-{{ network.title }}">
+	                                </a>
+	                            </li>
+	                            {% endfor %}
+	                        </ul>
+								</section>
+							</div>
+              {% endfor %}
+							
+						</div>
+					</section>
 					<section class="wrapper style2 container special-alt">
 						<div class="row half">
 							<div class="8u">
