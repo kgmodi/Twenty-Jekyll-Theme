@@ -3,13 +3,11 @@ layout: landing-page
 ---		
 		<!-- Main -->
 			<article id="main">
-
 				<header class="special container">
 					<span class="icon fa-bar-chart-o"></span>
 					<h2><strong>17 Countries </strong><br/> 12000+ kms <br/><strong> 3 People </strong><br/> 1 Car </h2>
 					<p>This August, three people will embark on a journey starting in New York crossing continents and driving thousands of miles from London to Mumbai for charity and adventure.</p>
 				</header>
-				<!-- Two -->
 					<section class="wrapper style1 container special">
 						<div class="row">
 							<div class="4u">
@@ -48,121 +46,9 @@ layout: landing-page
 							</div>
 						</div>
 					</section>
-				<!-- Three -->
-					<!-- <section class="wrapper style3 container special">
+			</article>				
+  {% include team.html %}
 
-						<header class="major">
-							<h2>Next look at this <strong>cool stuff</strong></h2>
-						</header>
-
-						<div class="row">
-							<div class="6u">
-
-								<section>
-									<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-									<header>
-										<h3>A Really Fast Train</h3>
-									</header>
-									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-								</section>
-
-							</div>
-							<div class="6u">
-
-								<section>
-									<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-									<header>
-										<h3>An Airport Terminal</h3>
-									</header>
-									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-								</section>
-
-							</div>
-						</div>
-						<div class="row">
-							<div class="6u">
-
-								<section>
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-									<header>
-										<h3>Hyperspace Travel</h3>
-									</header>
-									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-								</section>
-
-							</div>
-							<div class="6u">
-
-								<section>
-									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-									<header>
-										<h3>And Another Train</h3>
-									</header>
-									<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-								</section>
-
-							</div>
-						</div>
-
-						<footer class="major">
-							<ul class="buttons">
-								<li><a href="#" class="button">See More</a></li>
-							</ul>
-						</footer>
-
-					</section> -->
-					
-			</article>
-				<!-- Two -->
-				
-					<section id="team" class="wrapper style3 container special">
-						<h2><strong>Team</strong></h2>
-						<div class="row">
-	                {% for member in site.people %}
-	                <div class="4u">
-										<section>
-	                        <img src="{{ member.pic }}" class="image circle" alt="">
-													<header>
-	                        	<h3>{{ member.name }}</h3>
-													</header>
-	                        <p class="text-muted">{{ member.position }}</p>
-	                        <ul class="icons">
-	                            {% for network in member.social %}
-	                            <li>
-	                                <a href="{{ network.url }}" class="icon circle fa-{{ network.title }}">
-	                                </a>
-	                            </li>
-	                            {% endfor %}
-	                        </ul>
-													</section>
-													
-	                </div>
-	                {% endfor %}
-						</div>
-						<h2><strong>Support Team</strong></h2>
-						<div class="row">
-              {% for member in site.support-team %}
-							<div class="4u">
-								<section>
-	                <img src="{{ member.pic }}" class="image circle" alt="">
-									<header>
-										<h3>{{ member.name }}</h3>
-									</header>
-	                <p class="text-muted">{{ member.position }}</p>
-	                        <ul class="icons">
-	                            {% for network in member.social %}
-	                            <li>
-	                                <a href="{{ network.url }}" class="icon circle fa-{{ network.title }}">
-	                                </a>
-	                            </li>
-	                            {% endfor %}
-	                        </ul>
-								</section>
-							</div>
-              {% endfor %}
-							
-						</div>
-					</section>
 					<section class="wrapper style2 container special-alt">
 						<div class="row half">
 							<div class="8u">
