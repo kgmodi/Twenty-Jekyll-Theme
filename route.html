@@ -3,6 +3,22 @@ layout: default
 ---	
 <article id="main">
 	<section class="wrapper">
-		<iframe src="https://www.google.com/maps/d/embed?mid=zfIdZgAEcUxg.kjxkWsqZaceU" width="1000" height="800" class="wrapper style4 container"></iframe>
-</section>
+		<section class="wrapper style2 special-alt">
+			<div class="row half">
+				<div class="6u">
+					<header>
+						<h2>Our Route</h2>
+					</header>
+	        <ul class="posts">
+	          {% for location in site.route %}
+	            <li>
+	              <h3>{{forloop.index}} - {{ location.city }} - {{ location.country }}</h3>
+	            </li>
+	          {% endfor %}
+	        </ul>
+				</div>
+			</div>
+    </section>
+    <iframe src="https://www.google.com/maps/d/embed?mid=zfIdZgAEcUxg.kjxkWsqZaceU" width="1000" height="800" class="wrapper style4 container"></iframe>
+  </section>
 </article>

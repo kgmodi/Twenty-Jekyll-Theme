@@ -63,3 +63,113 @@ charities:
   location: Tithal, Valsad, India
   logo-url: images/logo01.jpg
   description: Kedi Residential High School has the most unique educational curriculum among other residential schools of its kind in this rural part of the district. Commitment to the challenging program is vital from students, teachers and parents. Education, boarding, meal, clothing, and medical care to more than 100 girls of economically deprived tribal areas are free-of-charge. Every student at Kedi arrives here by choice.
+
+main-sections:
+- name: Route
+  logo: globe
+  description: Flying from New York to London and then driving to Mumbai, we will be passing through 17 countries along the Silk Route.
+  button-name: Planned Route
+  url: route.html
+- name: Vehicle
+  logo: car
+  description: This car is going to be the integral part of our journey. We are making efforts to select a vehicle which will serve as our home on the journey.
+  button-name: More About Vehicle
+  url: vehicle.html
+- name: Charities
+  logo: child
+  description: We will be raising awareness and funds for two Charities - Skanda Vale Hospice in UK and Kedi School in India.
+  button-name: More About Charities
+  url: charities.html
+
+route: 
+- city: New York
+  country: USA
+- city: London
+  country: UK
+- city: Paris
+  country: France
+- city: Lyon
+  country: France
+- city: Geneva
+  country: Switzerland
+- city: Lichtenstein
+  country: Germany
+- city: Hanover
+  country: Germany
+- city: Berlin
+  country: Germany
+- city: Poznań 
+  country: Poland
+- city: Warsaw
+  country: Poland
+- city: Vilnius
+  country: Lithuania
+- city: Riga
+  country: Latvia
+- city: Tallinn
+  country: Estonia
+- city: St Petersburg
+  country: Russia
+- city: Moscow
+  country: Russia
+- city: Sochi
+  country: Russia
+- city: Tbilisi
+  country: Georgia
+- city: Baku
+  country: Azerbaijan
+- city: Turkmenbashi
+  country: Turkmenistan
+- city: Darvaza
+  country: Turkmenistan
+- city: Samarkand
+  country: Uzbekistan
+- city: Sary-Tash
+  country: Kyrgyzstan
+- city: Kashgar
+  country: China
+- city: Hotan, Xinjiang
+  country: China
+- city: Minfeng County, Hotan
+  country: China
+- city: Qarqan, Bayingol
+  country: China
+- city: Huatugouzhen, Haixi
+  country: China
+- city: Golmud
+  country: China
+- city: Tongren, Huangnan
+  country: China
+- city: Xiahe, Gannan
+  country: China
+- city: Ruoergai Xian
+  country: China
+- city: Miyaluozhen
+  country: China
+- city: Panzhihua
+  country: China
+- city: Dali
+  country: China
+- city: Ruili
+  country: China
+- city: Muse, Shan
+  country: Myanmar (Burma)
+- city: Mandalay
+  country: Myanmar (Burma) 
+- city: Tamu, Sagaing Region
+  country: Myanmar (Burma)  
+- city: Moreh, Manipur
+  country: India  
+- city: Imphal, Manipur
+  country: India  
+- city: Dispur, Guwahati, Assam
+  country: India  
+- city: Darjeeling
+  country: India  
+- city: Agra
+  country: India  
+- city: Vadodara
+  country: India  
+- city: Mumbai, Maharashtra
+  country: India  
+

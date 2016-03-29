@@ -10,40 +10,21 @@ layout: landing-page
 				</header>
 					<section class="wrapper style1 container special">
 						<div class="row">
+              {% for section in site.main-sections %}
 							<div class="4u">
 								<section>
-									<span class="icon featured fa-globe"></span>
+									<span class="icon featured fa-{{section.logo}}"></span>
 									<header>
-										<h3>Route</h3>
+										<h3>{{section.name}}</h3>
 									</header>
-									<p>Flying from New York to London and then driving to Mumbai, we will be passing through 17 countries along the Silk Route.
+									<p>{{section.description}}
 			            <ul class="buttons vertical">
-			                <li><a href="route.html" class="button fit scrolly">"Planned" Route</a></li>
+			                <li><a href="{{section.url}}" class="button fit scrolly">{{section.button-name}}</a></li>
 			            </ul>
 									</p>
 								</section>
 							</div>
-							<div class="4u">
-								<section>
-									<span class="icon featured fa-car"></span>
-									<header>
-										<h3>Vehicle</h3>
-									</header>
-									<p></p>
-								</section>
-							</div>
-							<div class="4u">
-								<section>
-									<span class="icon featured fa-child"></span>
-									<header>
-										<h3>Charities</h3>
-									</header>
-									<p>We will be raising awareness and funds for two Charities - Skanda Vale Hospice in UK and Kedi School in India.</p>
-			            <ul class="buttons vertical">
-			                <li><a href="charities.html" class="button fit scrolly">More about Charities</a></li>
-			            </ul>
-								</section>
-							</div>
+		          {% endfor %}
 						</div>
 					</section>
 			</article>				
@@ -67,7 +48,6 @@ layout: landing-page
 	                            {% endfor %}
 	                        </ul>
 													</section>
-													
 	                </div>
 	                {% endfor %}
 						</div>
@@ -92,7 +72,6 @@ layout: landing-page
 								</section>
 							</div>
               {% endfor %}
-							
 						</div>
 					</section>
 					<section class="wrapper style2 container special-alt">
