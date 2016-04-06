@@ -74,7 +74,7 @@ main-sections:
   logo: car
   description: This car is going to be the integral part of our journey. We are making efforts to select a vehicle which will serve as our home on the journey.
   button-name: More About Vehicle
-  url: vehicle.html
+  url: 
 - name: Charities
   logo: child
   description: We will be raising awareness and funds for two Charities - Skanda Vale Hospice in UK and Kedi School in India.
