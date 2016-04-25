@@ -114,18 +114,8 @@ route:
   country: Russia
 - city: Moscow
   country: Russia
-- city: Sochi
-  country: Russia
-- city: Tbilisi
-  country: Georgia
-- city: Baku
-  country: Azerbaijan
-- city: Turkmenbashi
-  country: Turkmenistan
-- city: Darvaza
-  country: Turkmenistan
-- city: Samarkand
-  country: Uzbekistan
+- city: 
+  country: Kazakhstan
 - city: Sary-Tash
   country: Kyrgyzstan
 - city: Kashgar
