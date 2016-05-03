@@ -5,7 +5,10 @@
 -->
 
 <head>
-  
+	<script>
+	var port = '{{site.port}}';
+	var baseurl = '{{site.url}}:{{site.port}}{{site.baseurl}}';
+	</script>
   <!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
   <script src="{{site.url}}:{{site.port}}{{ site.baseurl}}/js/jquery.min.js"></script>
   <script src="{{site.url}}:{{site.port}}{{ site.baseurl}}/js/jquery.dropotron.min.js"></script>
@@ -26,10 +29,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="description" content="{{ site.description }}">
     <meta name="keywords" content="" />
-		<script>
-		var port = '{{site.port}}';
-		var baseurl = '{{site.url}}:{{site.port}}{{site.baseurl}}';
-		</script>
+
 
     <meta name="viewport" content="width=device-width">
 
