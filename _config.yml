@@ -76,7 +76,7 @@ charities:
 main-sections:
 - name: Route
   logo: globe
-  description: Flying from New York to London and then driving to Mumbai, we will be passing through 17 countries along the Silk Route.
+  description: Flying from New York to London and then driving to Mumbai, we will be passing through 15 countries along the Silk Route.
   button-name: Planned Route
   url: route.html
 - name: Vehicle
