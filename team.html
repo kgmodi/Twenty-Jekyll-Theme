@@ -2,16 +2,19 @@
 layout: default
 ---	
 					<section id="team" class="wrapper style3 container special">
+            <br/>
 						<h2><strong>Team</strong></h2>
 						<div class="row">
 	                {% for member in site.people %}
-	                <div class="4u">
-										<section>
+	                <div>
+										<section id="{{ member.name }}">
+                        <br/><br/>
 	                        <img src="{{ member.pic }}" class="image circle" alt="">
 													<header>
 	                        	<h3>{{ member.name }}</h3>
 													</header>
 	                        <p class="text-muted">{{ member.position }}</p>
+	                        <p class="text-muted">{{ member.bio }}</p>
 	                        <ul class="icons">
 	                            {% for network in member.social %}
 	                            <li>
@@ -21,7 +24,6 @@ layout: default
 	                            {% endfor %}
 	                        </ul>
 													</section>
-													
 	                </div>
 	                {% endfor %}
 						</div>
