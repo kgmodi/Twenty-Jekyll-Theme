@@ -4,12 +4,12 @@ email: kgmodi@gmail.com
 description: > # 
   Three people will embark on a journey starting in New York crossing continents and driving thousands of miles from London to Mumbai for charity and adventure.
 baseurl: "" # the subpath of your site, e.g. /blog/
-#url: "http://www.nytomumbai.org" # the base hostname & protocol for your site
-url: "http://localhost"
+url: "http://www.nytomumbai.org" # the base hostname & protocol for your site
+#url: "http://localhost"
 twitter_username: kgmodi
 github_username:  kgmodi
-#port: "80"
-port: "4444"
+port: "80"
+#port: "4444"
 # Build settings
 markdown: kramdown
 
