@@ -4,13 +4,16 @@
   {% include head.html %}
 
   <body class="no-sidebar">
-
+    {% include facebook.html %}
     {% include header.html %}
+    
     <div class="page-content">
+      {% include facebook-like-button.html %}
+      
         {{ content }}
     </div>
     {% include footer.html %}
 
-  </body>
+  </body>  
     {% include ga.html %}
 </html>
