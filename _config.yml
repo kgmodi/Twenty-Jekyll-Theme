@@ -14,7 +14,7 @@ markdown: kramdown
 # Team names, titles and social links
 people:
 - name: Kunal Modi
-  pic: images/kunal-profile.jpg
+  pic: images/kunal-profile-color.png
   position: Software Development Manager, New Jersey
   social:
     - title: facebook
@@ -26,7 +26,7 @@ people:
   bio: Kunal is an inquisitive, adventurous explorer and finds crossing land borders fascinating. He is born and raised in Mumbai, India and currently lives and works in New Jersey. He was part of <a href="http://lastresponders.org/timbuktuchallenge2012.html" target="_blank">Team Last Responders</a> from the London to Mali road trip in 2012. Having done trip to Mali, Kunal always wanted to travel back to his native land by road. The cause of education is very dear to him. He can be described as having an analytical mind, as the one who loves to follow and read maps and as the one who loves to get lost on the road before he finds the right route.
 
 - name: Devanshi Modi
-  pic: images/devanshi-profile.jpg
+  pic: images/devanshi-profile-color.png
   position: Physical Therapist, New Jersey 
   social:
     - title: facebook
@@ -36,7 +36,7 @@ people:
   bio: Devanshi is a motivated learner, the one ready to face unforeseen challenges. Loves talking and interacting with different people. Natural beauty enchants her. She is raised in Mumbai, India and currently lives in New Jersey. Working as a Physical Therapist and seeing the benefits of rehabilitation in her patients; she really feels for the cause. She can be described as being free spirited, excited as well as anxious to drive on unknown narrow roads and to parallel park.
 
 - name: Shrida Shah Pradhan 
-  pic: images/shrida-profile.jpg
+  pic: images/shrida-profile-color.png
   position: Teacher,UK
   # social:
   #     - title: facebook
