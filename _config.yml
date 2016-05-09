@@ -6,8 +6,6 @@ description: > #
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.nytomumbai.org" # the base hostname & protocol for your site
 #url: "http://localhost"
-twitter_username: kgmodi
-github_username:  kgmodi
 port: "80"
 #port: "4444"
 # Build settings
@@ -68,7 +66,8 @@ charities:
 - name: Kedi Residential School for Tribal Girls
   url: http://www.kedischool.org/
   location: Tithal, Valsad, India
-  logo-url: images/logo01.jpg
+  # logo-url: images/logo01.jpg
+  logo-url: images/kedi-school-logo.png
   paypalId: JX5PUPM9CUUSA
   description: Kedi Residential High School has the most unique educational curriculum among other residential schools of its kind in this rural part of the district. Commitment to the challenging program is vital from students, teachers and parents. Education, boarding, meal, clothing, and medical care to more than 100 girls of economically deprived tribal areas are free-of-charge. Every student at Kedi arrives here by choice. Kedi school is now coming up with a new project to provide Scholarship program after 12th for higher education. In this project, the school will offer part payment of fees and scholarships to those who want to continue higher studies. We aim to donate and raise funds for the same.
 
