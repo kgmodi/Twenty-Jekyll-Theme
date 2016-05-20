@@ -20,9 +20,11 @@ layout: default
 									<h6>	{{charity.location}}</h6>
 									
 									<p>{{charity.description}}
+                  <div class="image featured">
                   {% for image in charity.images %}
-                    <img src="{{image.url}}" class="image featured">
+                    <img src="{{image.url}}" >
                   {% endfor %}
+                  </div>
 									<p><a href="{{charity.url}}">{{charity.url}}</a></p>
                   <p>Please visit our <a href="/supportus.html">Support Us Page</a> to Donate.</p>
                 </p>
