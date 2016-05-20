@@ -33,17 +33,7 @@ people:
       url: http://www.facebook.com/devanshi.gandhi.37
     - title: linkedin
       url: http://www.linkedin.com/in/devanshi-modi-930bb3b1
-  bio: Devanshi is a motivated learner, the one ready to face unforeseen challenges. Loves talking and interacting with different people. Natural beauty enchants her. She is raised in Mumbai, India and currently lives in New Jersey. Working as a Physical Therapist and seeing the benefits of rehabilitation in her patients; she really feels for the cause. She can be described as being free spirited, excited as well as anxious to drive on unknown narrow roads and to parallel park.
-
-- name: Shrida Shah Pradhan 
-  pic: images/shrida-profile-color.png
-  position: Teacher,UK
-  # social:
-  #     - title: facebook
-  #       url: http://www.facebook.com/shirishiri.shahpradhan
-  #     - title: linkedin
-  #       url: http://www.linkedin.com/in/shrida-shahpradhan-81270811
-  bio: Shrida is an enthusiastic young mother. Idea of charity drives her. She is an active member for fund raising events and volunteering for many charities. Originally from India, Shrida lives in London for the past 15 years. She firmly believes in giving back to the community and is a fine hockey player. She can be described as an excited, enthusiastic soul. She mentions to carry a hockey stick everywhere she goes in case she finds a field to play.
+  bio: Devanshi is a motivated learner, the one ready to face unforeseen challenges. Loves talking and interacting with different people. Natural beauty enchants her. She is raised in Mumbai, India and currently lives in New Jersey. She can be described as being free spirited, excited as well as anxious to drive on unknown narrow roads and to parallel park.
 
 support-team:
 - name: Vrunda Modi
@@ -54,15 +44,19 @@ support-team:
       url: http://www.facebook.com/vrunmodi
     - title: linkedin
       url: https://www.linkedin.com/in/vrunda-modi-78924a23
-  bio: 
+  bio:
+   
+- name: Shrida Shah Pradhan 
+  pic: images/shrida-profile-color.png
+  position:
+  # social:
+  #     - title: facebook
+  #       url: http://www.facebook.com/shirishiri.shahpradhan
+  #     - title: linkedin
+  #       url: http://www.linkedin.com/in/shrida-shahpradhan-81270811
+  bio:
+  
 charities:
-- name: Skanda Vale Hospice
-  url: http://www.skandavalehospice.org/
-  location: Wales, UK
-  logo-url: images/skanda-vale-hospice-web-logo1.png
-  paypalId: X2RDCSVGGFE38
-  description: At Skandavale hospice, the aim is to improve the lives of people who have a life-limiting or terminal illness, helping them to live well before they die. They not only take care of people’s physical needs, but look after their practical, physical, emotional, social and spiritual needs as well. They support careers, family members and close friends, both during a person’s illness and during bereavement. They believe that great palliative care is about getting the details right, so that a person can be cared for in an attentive, loving and dignified way. They have the enthusiasm, the time and the resources to be able to offer a high standard of care, personally tailored to suit the specific needs of the individual. We plan to raise funds to support their efforts.
-
 - name: Kedi Residential School for Tribal Girls
   url: http://www.kedischool.org/
   location: Tithal, Valsad, India
@@ -70,7 +64,10 @@ charities:
   logo-url: images/kedi-school-logo.png
   paypalId: JX5PUPM9CUUSA
   description: Kedi Residential High School has the most unique educational curriculum among other residential schools of its kind in this rural part of the district. Commitment to the challenging program is vital from students, teachers and parents. Education, boarding, meal, clothing, and medical care to more than 100 girls of economically deprived tribal areas are free-of-charge. Every student at Kedi arrives here by choice. Kedi school is now coming up with a new project to provide Scholarship program after 12th for higher education. In this project, the school will offer part payment of fees and scholarships to those who want to continue higher studies. We aim to donate and raise funds for the same.
-
+  images: 
+    - url: images/experimental-learning.jpg
+    - url: images/fun-with-learning.jpg
+    - url: images/interactive-teaching.jpg
 
 main-sections:
 - name: Route
@@ -85,8 +82,8 @@ main-sections:
   # url:
 - name: Charities
   logo: child
-  description: We will be raising awareness and funds for two Charities - Skanda Vale Hospice in UK and Kedi School in India.
-  button-name: More About the Charities
+  description: We will be raising awareness and funds for Kedi Residential School For Tribal Girls in India.<br/><br/>
+  button-name: More About the Kedi School
   url: charities.html
 
 route: 
