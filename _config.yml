@@ -77,8 +77,8 @@ main-sections:
   url: route.html
 - name: Vehicle
   logo: car
-  description: This car is going to be the integral part of our journey. We are making efforts to select a vehicle which will serve as our home on the journey.
-  button-name: More About Vehicle Soon
+  description: For this journey, we are going to use our 2009 Nissan Versa Hatchback. With 1.8l engine and 5 doors, we feel this car will serve the purpose of the journey.
+  button-name: More About Our Car
   # url:
 - name: Charities
   logo: child
