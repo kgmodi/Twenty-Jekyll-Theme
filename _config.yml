@@ -79,7 +79,7 @@ main-sections:
   logo: car
   description: For this journey, we are going to use our 2009 Nissan Versa Hatchback. With 1.8l engine and 5 doors, we feel this car will serve the purpose of the journey.
   button-name: More About Our Car
-  # url:
+  url: https://www.youtube.com/watch?v=C4uXsWtvCLI
 - name: Charities
   logo: child
   description: We will be raising awareness and funds for Kedi Residential School For Tribal Girls in India.<br/><br/>
