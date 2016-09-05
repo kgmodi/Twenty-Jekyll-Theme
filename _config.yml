@@ -15,7 +15,7 @@ markdown: kramdown
 people:
 - name: Kunal Modi
   pic: images/kunal-profile-color.png
-  position: Software Development Manager, New Jersey
+  position: Software Engineer, New Jersey
   social:
     - title: facebook
       url: http://www.facebook.com/kgmodi
@@ -34,6 +34,16 @@ people:
     - title: linkedin
       url: http://www.linkedin.com/in/devanshi-modi-930bb3b1
   bio: Devanshi is a motivated learner, the one ready to face unforeseen challenges. Loves talking and interacting with different people. Natural beauty enchants her. She is raised in Mumbai, India and currently lives in New Jersey. She can be described as being free spirited, excited as well as anxious to drive on unknown narrow roads and to parallel park.
+
+- name: Stephen Jan
+  pic: images/profile_sjan.jpg
+  position: Software Engineer, New York
+  social:
+    - title: facebook
+      url: http://www.facebook.com/sjan828
+    - title: linkedin
+      url: https://www.linkedin.com/in/sjan828
+  bio: 
 
 support-team:
 - name: Vrunda Modi
