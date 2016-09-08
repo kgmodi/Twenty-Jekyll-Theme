@@ -127,11 +127,13 @@ route:
   country: Russia
 - city: Moscow
   country: Russia
-- city: 
+- city: Astana 
   country: Kazakhstan
-- city: Sary-Tash
-  country: Kyrgyzstan
-- city: Kashgar
+- city: Almaty 
+  country: Kazakhstan
+- city: Horgos
+  country: Kazakhstan
+- city: Korgos
   country: China
 - city: Hotan, Xinjiang
   country: China
